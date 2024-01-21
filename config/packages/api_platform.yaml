@@ -3,6 +3,7 @@ api_platform:
     version: 1.0.0
     formats:
         jsonld: ['application/ld+json']
+        json: ['application/json']
     docs_formats:
         jsonld: ['application/ld+json']
         jsonopenapi: ['application/vnd.openapi+json']
@@ -21,5 +22,5 @@ api_platform:
     collection:
         pagination:
             items_per_page_parameter_name: 'count'
-    event_listeners_backward_compatibility_layer: false
+    event_listeners_backward_compatibility_layer: true
     keep_legacy_inflector: false
